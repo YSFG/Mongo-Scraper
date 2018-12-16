@@ -52,8 +52,7 @@ $(document).on("click", ".view-notes", function () {
             "<h3>" + data.notes[i].title + "</h3>" +
             "<p>" + data.notes[i].body + "</p>" +
             "<button data-id='" + data.notes[i]._id + "' articleId='" + thisId + "' class='delete-note'>Delete Note</button>"
-          );
-        }
+          )}
       }
       else {
         $("#notes").append("There are currently no notes for this article" + "<br>" + "<br>");

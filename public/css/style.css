@@ -23,3 +23,7 @@ h1{
 .view-notes{
   margin-right: 5px;
 }
+
+.modal-title{
+  float: left;
+}
