@@ -1,0 +1,25 @@
+.background {
+  background-image: url("/images/breaking-news-background.png") ;
+  background-size: cover;    
+  background-position: center;
+  background-blend-mode: multiply;  
+  margin-top: 20px;  
+  background-color: rgba(0,0,0,0.2); 
+}
+
+#wrapper {
+  margin: 50px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+
+h1{
+  color: white;
+}
+
+.view-notes{
+  margin-right: 5px;
+}
